@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <title>aWiFi</title>
+<link rel="stylesheet" href="pure.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/main-grid-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/main-grid.css">
+    <!--<![endif]-->
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/awifi-portal-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/awifi-portal.css">
+    <!--<![endif]-->
+<link rel="stylesheet" href="font-awesome.css">
+</head>
+<body>
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="#tutorial"> <img src="img/common/awifi-logo.png" style="border: 0 none;float: left;width: 88px;"/></a>
+    </div>
+</div>
+<div id="hs-info"></div>
+<div class="content-wrapper">
+    <div class="content">
+        <img src="http://placehold.it/960x320" class="portal-banner"/>
+    </div>
+    <div class="splash-container" style="background: url("img/common/bg-banner.png") repeat scroll 0 0 transparent;">
+    <div class="splash">
+    <h2 class="content-head is-center" id="yui_3_14_1_1_1406715755811_8" style="color:#fff;">登录WiFi</h2>
+        <img src="http://placehold.it/300x100" style="border: 3px solid #FFFFFF;border-radius: 5px;width:100%;max-width:320px;"/>
+        <img src="http://placehold.it/300x100&text=Join Us" style="border: 3px solid #FFFFFF;border-radius: 5px;width:100%;max-width:320px;margin-top:1.5em;"/>
+        <p class="splash-subhead">
+        √ 点选其一开通网路，并遵守上网规章
+        </p>
+    </div>
+</div>
+    <div class="footer l-box is-center">
+        Copyright © aWiFi
+    </div>
+</div>
+<div class="scrolldown"></div>
+<a href="#" class="scrollup"><img alt="scroll-top" src="img/common/icon_top.png"></a>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="awifi-portal.js"></script>
+<script src="yui.js"></script>
+<script>
+YUI().use('node-base', 'node-event-delegate', function (Y) {
+    // This just makes sure that the href="#" attached to the <a> elements
+    // don't scroll you back up the page.
+    Y.one('body').delegate('click', function (e) {
+        e.preventDefault();
+    }, 'a[href="#"]');
+});
+</script>
+</body>
+</html>
