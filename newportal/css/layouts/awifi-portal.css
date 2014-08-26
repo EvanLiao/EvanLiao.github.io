@@ -46,6 +46,10 @@ label {
     text-align: center;
 }
 
+.headtitle{
+    display: none;
+}
+
 
 
 /*
@@ -306,6 +310,9 @@ a.pure-button-primary {
     .apsite-info2{float: left;width:25%;}
     .nearby-card {
     width: 23% !important;
+    }
+    .headtitle{
+    display:inline;
     }
 }
 
