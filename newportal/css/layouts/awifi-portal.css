@@ -329,6 +329,19 @@ a.pure-button-primary {
     z-index: 99;
 }
 
+.scrolldown {
+    background: url("../../img/common/icon_down.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 1em;
+    display:inline;
+    height: 40px;
+    opacity: 0.7;
+    position: fixed;
+    right: 1em;
+    text-indent: -9999px;
+    width: 300px;
+    z-index: 99;
+}
+
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
  * On desktops and other large devices, we want to over-ride some
