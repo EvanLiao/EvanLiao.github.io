@@ -98,7 +98,7 @@ a {
   right: 1em;
   display: none;
   text-indent: -9999px;
-  background: url('../img/icon_top.png') no-repeat;
+  background: url('../../img/icon_top.png') no-repeat;
 }
 .content2 {
   max-width: 1000px;
@@ -625,6 +625,21 @@ div.advert-img {
     word-break: break-all;
 }
 
+.footer-banner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dsp-banner {
+    position: relative;
+    min-width: 320px;
+    bottom: 0px;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+}
+
 button,
 input,
 select,
@@ -751,6 +766,13 @@ textarea {
   }
   .card-info {
     max-height: 5.7em;
+  }
+  .footer-banner {
+    max-width: 320px;
+  }
+
+    .dsp-banner {
+    max-width: 320px;
     }
 }
 @media (max-width: 710px) {

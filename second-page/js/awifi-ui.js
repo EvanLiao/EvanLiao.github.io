@@ -43,6 +43,11 @@ jQuery(function($) {
             $('.scrollup').fadeOut();
 
         }
+        if ($(this).scrollTop() < 100) {
+        $('.dsp-banner').fadeIn();
+        } else {
+        $('.dsp-banner').fadeOut();
+        }
     });
     $('.scrollup').click(function(){
         $("html, body").animate({ scrollTop: 0 }, 600);
