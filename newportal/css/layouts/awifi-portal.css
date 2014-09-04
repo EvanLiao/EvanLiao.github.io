@@ -15,12 +15,19 @@ body {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6,
 label {
     color: #333;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+h3{
+    color:#fff;font-size:0.95em;
 }
 
 .pure-img-responsive {
@@ -75,7 +82,7 @@ label {
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: #aaa;
+    background-color: #56ae76;
     color: white;
     padding: 0.5em 2em;
     border-radius: 5px;
@@ -259,6 +266,13 @@ a.pure-button-primary {
         font-size: 16px;
         line-height: 1.7em;
     }
+    h2{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size:1.2em;
+    }
     /* We want to give the content area some more padding */
     .content {
         padding: 0.5em;
@@ -287,7 +301,7 @@ a.pure-button-primary {
     /* We decrease the width of the .splash, since we have more width
     to work with */
     .splash {
-        width: 28%;
+        width: 30%;
         margin-left: auto;
         margin-right: auto;
         height: 480px;
@@ -334,7 +348,7 @@ a.pure-button-primary {
     bottom: 1em;
     display:inline;
     height: 40px;
-    opacity: 0.7;
+    opacity: 0.6;
     position: fixed;
     right: 1em;
     text-indent: -9999px;
