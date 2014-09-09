@@ -17,4 +17,15 @@ jQuery(function($) {
         $("html, body").animate({ scrollTop: 0 }, 600);
         return false;
     });
+    var rule_loaded = false;
+    $(".agree-rule").click(function () {
+        if (!rule_loaded) {
+            $('#rule').load(rule_url);
+            rule_loaded = true;
+        }
+        $(".rule-info").slideToggle("fast");
+    });
+    $("#close1").click(function () {
+        $(".rule-info").slideUp("fast");
+    });
 });

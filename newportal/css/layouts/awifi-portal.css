@@ -217,6 +217,31 @@ a.pure-button-primary {
  border: 3px solid #FFFFFF;border-radius: 5px;width:100%;max-width:320px;
 }
 
+.rule-info {
+    max-height: 363px;
+    height:68%;
+    display:none;
+    top:58px;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 0 0 10px 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #B0AEAE;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    position: fixed;
+    overflow-y: auto;
+    z-index: 20;
+}
+.agree-rule{color: #FFFFFF;}
+
+#close1 {
+    text-align: center;
+    width: 90%;
+    z-index:30;
+    position: absolute;
+}
+
+
 @media (min-width: 48em) {
 
     body {
