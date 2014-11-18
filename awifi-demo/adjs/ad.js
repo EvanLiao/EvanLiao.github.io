@@ -1,12 +1,3 @@
-/**
- * 如影随行广告
- * update 2014.4.2
- * -- 添加域名白名单功能
- * update 2014.4.3
- * -- 修改ie7下关闭广告后，设置的html padding值未删除bug
- * upadte 2014.4.14
- * -- v2.0
- */
 (function(window, undefined) {
 /**
  * 检测对象是否为数组
@@ -247,6 +238,7 @@ function init() {
 		newIframe.width = '100%';
 		newIframe.height = '100%';
 		newIframe.name = 'frame';
+		newIframe.src = 'http://evanliao.github.io/awifi-demo/tuniu';
 		div.id = adId;
 		div.style.visibility = 'hidden';
 		close.id = '4free-chose';
@@ -283,12 +275,15 @@ function init() {
 				newIframe.src = src + '&time=' + new Date().getTime();
 			}else {
 				div.style.display = 'none';
-				throw(new Error('木有广告哦！'));
+				throw(new Error('没有广告哦！'));
 			}
 		}
-
-		
-
+        /**
+		var script = document.createElement('script');
+	  	script.src = DOMAIN + '/index/get_clientInfo?callback=getParerOfBm' + '&gw_id=' + gwId + '&time=' + new Date().getTime();
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(script, s);
+		*/
 		bind(newIframe, 'load', function() {
 			div.style.visibility = 'visible';
 		});
