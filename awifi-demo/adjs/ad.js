@@ -218,9 +218,9 @@ function init() {
 		htmlStyle = '',
 		style,
 		resized,
-		scale = 100 / 640; // 广告图片比例
+		scale = 50 / 320; // 广告图片比例
 
-	var divStr = '-webkit-tap-highlight-color: rgba(0,0,0,0);background-color:#fff;background-color:rgba(255,255,255,.5);position: fixed; left:0; right: 0; bottom: 0;height:100px;overflow: hidden;z-index:99999999999;_position:absolute; _margin-top: 0; _left:0; _top:expression(documentElement.scrollTop+(documentElement.clientHeight-this.offsetHeight))',
+	var divStr = '-webkit-tap-highlight-color: rgba(0,0,0,0);background-color:#fff;background-color:rgba(255,255,255,.5);position: fixed; left:0; right: 0; bottom: 0;height:50px;overflow: hidden;z-index:99999999999;_position:absolute; _margin-top: 0; _left:0; _top:expression(documentElement.scrollTop+(documentElement.clientHeight-this.offsetHeight))',
 		iframeStr = 'display: block; width: 100%; height:100%; border:0; vertical-align: top;',
 		cDivStr = 'overflow:hidden;width:100%;height:100%;margin:0 auto;position:relative;top:0;left:0;',
 		closeStr = 'font-family: Arial;font-size: 20px;position: absolute;top: -30px;right: -30px;display: inline-block;width: 60px;height: 60px;overflow: hidden;cursor: pointer;line-height: 86px;text-align: left;color: #fff;background-color:#000;background-color: rgba(0,0,0,.5);border-radius: 50%;text-indent: 12px;*text-indent: 10px;border:1px solid #666;border: 1px solid rgba(255,255,255,.25);';
