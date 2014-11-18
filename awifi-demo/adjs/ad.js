@@ -287,10 +287,7 @@ function init() {
 			}
 		}
 
-		var script = document.createElement('script');
-	  	script.src = DOMAIN + '/index/get_clientInfo?callback=getParerOfBm' + '&gw_id=' + gwId + '&time=' + new Date().getTime();
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(script, s);
+		
 
 		bind(newIframe, 'load', function() {
 			div.style.visibility = 'visible';
