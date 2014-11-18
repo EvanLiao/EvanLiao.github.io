@@ -1,34 +1,33 @@
 <html>
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-<style>
-html, body{display:block;width:100%;height: 100%;margin:0;}
-ul{list-style: none;margin:0;padding: 0;}
-.ad{height: 100%;overflow: hidden;position: relative;top:0;left:0;}
-.ad .scroller{height: 100%;margin:0 auto;overflow: hidden;position: relative;top:0;left:0;z-index: 1;}
-.ad .scroller li{float: left;}
-.ad .scroller a{display: block;height: 100%;text-align: center;width: 100%;}
-.ad .scroller img{height: 100%;width: 100%;border: none;vertical-align: top;}
-.ad>ul{position: absolute;z-index: 10;bottom: 5%;text-align: center;width: 100%;height: 10px;line-height: 10px;display: none;}
-.ad>ul li{width: 8px !important;height: 8px;display: inline-block;background-color:#fff;font-size: 0;-webkit-border-radius: 100%;border-radius: 100%;margin: 0 5px;border:1px solid #e46500;}
-.ad>ul li{*display:inline;}
-.ad>ul li.chose{background-color: #e46500;border:1px solid #e46500;}
-#scroller ul, #scroller li{height: 100%;}</style>
-<script src="http://evanliao.github.io/awifi-demo/tuniu/js/jquery.roller-1.4.js"></script>
-<script src="http://evanliao.github.io/awifi-demo/tuniu/js/jquery.min.js"></script>
+<style type="text/css">
+.dsp-banner {
+    max-width: 320px;
+}
+.dsp-banner {
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 320px;
+    width: 100%;
+}
+.footer-banner {
+    max-width: 320px;
+}
+.footer-banner {
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
 </head><body>
-<div id="ad" class="ad">
-<div class="prev disabled"></div>
-<div id="scroller" class="scroller wrapper" style="max-height: 100px;width:100%;max-width: 640px;">
-<ul style="max-height: 100px;width:100%;max-width: 640px; margin-left: 0px;">
-<li class="active" style="max-width: 640px;">
+<div class="footer-banner">
+<div class="dsp-banner" style="display: block;">
 <a target="_top" href="http://m.tuniu.com">
-<img src="tuniu-footer.png" title="tuniu-footer">
+<img style="width:100%;" src="tuniu-footer.png" title="tuniu-footer">
 </a>
-</li>
-</ul>
 </div>
-<div class="next disabled"></div>
 </div>
+
 </body>
 </html>
