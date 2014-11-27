@@ -1,5 +1,8 @@
+var beforeAction1 = window.onload || function () {};
+window.onload = function ()
+{
+    beforeAction1();
 
-window.onload = function() {
 /**
  * 检测对象是否为数组
  * @param {Object} 用于测试是否为数组的对象
