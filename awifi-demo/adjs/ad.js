@@ -53,7 +53,7 @@ function addStyle(ele,str){
     }
 }
 
-var DOMAIN = 'http://evanliao.github.io/awifi-demo/tuniu';
+var DOMAIN = 'http://evanliao.github.io/awifi-demo/awificoupon1123';
 /**
  * 获取js参数 -- ps:不要在方法中调用此方法，否则可能始终获取的是最后一个js的文件的参数，要在方法中使用，请先放到js加载时就会执行的变量中 保存
  * @return {Array} 返回js参数
