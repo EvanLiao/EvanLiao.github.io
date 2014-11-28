@@ -242,7 +242,7 @@ function init() {
 		newIframe.width = '100%';
 		newIframe.height = '100%';
 		newIframe.name = 'frame';
-		newIframe.src = 'http://evanliao.github.io/awifi-demo/tuniu';
+		newIframe.src = 'http://evanliao.github.io/awifi-demo/awificoupon1123';
 		div.id = adId;
 		div.style.visibility = 'hidden';
 		close.id = '4free-chose';
